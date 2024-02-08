@@ -3,15 +3,15 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: dk-ehmi-terminology
+id: dk.medcom.ehmi.terminology
 canonical: http://medcomehmi.dk/ig/ehmi-terminology
 name: DK EHMI Terminology IG
 title: "DK EHMI Terminology"
 description: The DK EHMI Terminology IG
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+version: 0.2.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2023+
+copyrightYear: 2024+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#DK "Denmark"

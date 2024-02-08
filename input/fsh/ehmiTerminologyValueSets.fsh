@@ -105,7 +105,7 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-organization-type"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = true
-* ^compose.include[+].system = $EHMISOROrganizationType
+/** ^compose.include[+].system = $EHMISOROrganizationType
 * ^compose.include[=].concept[+].code = #IO
 * ^compose.include[=].concept[=].display = "Institution Owner"
 * ^compose.include[=].concept[=].designation[+].language = #da
@@ -130,7 +130,8 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-organization-type"
 * ^compose.include[=].concept[=].display = "Organizational Unit"
 * ^compose.include[=].concept[=].designation[+].language = #da
 * ^compose.include[=].concept[=].designation[=].value = "Organisatorisk enhed"
-//* include codes from system ehmi-sor-organization-type
+*/
+* include codes from system ehmi-sor-organization-type
 
 CodeSystem: EHMISORNetOperator
 Id: ehmi-sor-net-operator-type
@@ -220,7 +221,7 @@ Description: "EHMIUseContextCodeSystemVS for the EHMI Messaging Infrastructure"
 CodeSystem: EHMISORIOOrganization
 Id: ehmi-sor-io-organization-type
 Title: "EHMI SOR Organization Types CS"
-Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
+Description: "ehmi-sor-io-organization-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
