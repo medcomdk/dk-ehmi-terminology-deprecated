@@ -7,7 +7,7 @@ Description: "CodeSystem containing codes for EHMI SOR Organization Identier Typ
 * ^date  =  "2023-09-01"
 * ^experimental = true
 * ^caseSensitive = true
-* #SOR "SOR Identifier" "Sorkode"
+//* #SOR "SOR Identifier" "Sorkode"
 * #SORID "SOR Identifier" "Sorkode"
 * #MunicipalityCode "Municipality Code" "Kommunekode"
 * #RegionCode "Region Code" "Regionskode"
@@ -34,8 +34,8 @@ Description: "dk-medcom-ehmi-connection-types for the EHMI Messaging Infrastruct
 * ^caseSensitive = true
 * #eDeliveryMessaging "EHMI messaging via eDelivery"
 * #vansMessaging "EHMI messaging"
-* #hl7-fhir-msg "hl7-fhir-msg"
-* #hl7-fhir-rest "hl7-fhir-rest"
+//* #hl7-fhir-msg "hl7-fhir-msg"
+//* #hl7-fhir-rest "hl7-fhir-rest"
 * #ihe-xds "ihe-xds - Cross-domain Document Sharing"
 
 ValueSet: EHMIEndpointConnectionTypeVS
@@ -84,18 +84,18 @@ Description: "ValueSet containing codes for EHMI payloadTypes"
 CodeSystem: EHMISOROrganization
 Id: dk-medcom-ehmi-sor-organization-type
 Title: "EHMI SOR Organization Types CS"
-Description: "dk-medcom-ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
+Description: "dk-medcom-ehmi-sor-organization-type for the EHMI Messaging Infrastructure. This is a direct reflection of the Danish SOR organisational hierarchy (SOR SorTypeCollection)"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = true
 * ^caseSensitive = true
-* #IO "SOR Organization - Institution Owner IO (DK:IE)"
-  * #HI "SOR Organization - Healthcare Institution HI (DK:SI)"
-    * #OU "SOR Organization - Organizational Unit OU (DK:OE)"
-* #IE "SOR Organization - Institution Owner IO" ""
-  * #SI "SOR Organization - Healthcare Institution HI"
-    * #OE "SOR Organization - Organizational Unit OU"
+* #IO "SOR Organization - Institution Owner IO (DK:IE)" "(regions, municipalities, national, private)"
+  * #HI "SOR Organization - Healthcare Institution HI (DK:SI)" "(fx hospitals, municipality administrative area, special practitioner, dentist, physio-therapeutic clinic)"
+    * #OU "SOR Organization - Organizational Unit OU (DK:OE)" "(fx departments, wards, centres, GPs and therapeuts)"
+* #IE "SOR Organization - Institutions Ejer IE" "(region, kommune, stat, privat)"
+  * #SI "SOR Organization - Healthcare Institution HI" " (fx hospital, kommunal forvaltning, speciallægepraksis, tandlæge, fysioterapeutklinik)"
+    * #OE "SOR Organization - Organizational Unit OU" "(fx afdelinger, afsnit, centre, ydernumre og (behandlere)."
 
 ValueSet: EHMISOROrganizationVS
 Id: dk-medcom-ehmi-sor-organization-type-valueset
@@ -136,7 +136,7 @@ Description: "ValueSet containing codes for EHMI dk-medcom-ehmi-sor-organization
 CodeSystem: EHMISORNetOperator
 Id: dk-medcom-ehmi-sor-net-operator-type
 Title: "EHMI SOR Netoperator Types CS"
-Description: "dk-medcom-ehmi-sor-net-operator-type for the EHMI Messaging Infrastructure"
+Description: "dk-medcom-ehmi-sor-net-operator-type for the EHMI Messaging Infrastructure. This is a direct reflection of the SOR "
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"

@@ -1,7 +1,7 @@
 CodeSystem: EHMISORRegionType
 Id: dk-medcom-ehmi-sor-region-type
 Title: "EHMI SOR Region Types CS"
-Description: "dk-medcom-ehmi-sor-region-type for the EHMI Messaging Infrastructure"
+Description: "dk-medcom-ehmi-sor-region-type for the EHMI Messaging Infrastructure. This reflects the SOR datatype: RegionCollection"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
