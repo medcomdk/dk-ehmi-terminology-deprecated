@@ -1,7 +1,7 @@
 CodeSystem: EhmiDeliveryStatusTypes
-Id: eds-deliverystatus-types
+Id: ehmi-delivery-status-types
 Title: "EHMI AuditEvent Types CS"
-Description: "eds-deliverystatus-types for the EHMI Messaging Infrastructure"
+Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -10,7 +10,7 @@ Description: "eds-deliverystatus-types for the EHMI Messaging Infrastructure"
 * #ehmiMessaging "EHMI message events"
 
 ValueSet: EhmiDeliveryStatusTypesValueset
-Id: eds-deliverystatus-types-valueset
+Id: ehmi-delivery-status-types-valueset
 Title: "EHMI AuditEvent Types Valueset"
 Description: "ValueSet containing codes for EHMI AuditEventTypes"
 * ^version  =  "1.0.0"
@@ -23,9 +23,9 @@ Description: "ValueSet containing codes for EHMI AuditEventTypes"
 * include codes from system http://terminology.hl7.org/CodeSystem/audit-entity-type
 
 CodeSystem: EhmiDeliveryStatusSubTypes
-Id: eds-deliverystatus-sub-types
+Id: ehmi-delivery-status-sub-types
 Title: "EHMI AuditEvent SubTypes CS"
-Description: "eds-deliverystatus-types for the EHMI Messaging Infrastructure"
+Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -37,7 +37,7 @@ Description: "eds-deliverystatus-types for the EHMI Messaging Infrastructure"
 * #msg-finalized "A message has reached its final reciever"
 
 ValueSet: EhmiDeliveryStatusSubTypesValueset
-Id: eds-deliverystatus-sub-types-valueset
+Id: ehmi-delivery-status-sub-types-valueset
 Title: "EHMI AuditEvent SubTypes Valueset"
 Description: "ValueSet containing codes for EHMI AuditEvent SubTypes"
 * ^version  =  "1.0.0"
@@ -50,7 +50,7 @@ Description: "ValueSet containing codes for EHMI AuditEvent SubTypes"
 //* include codes from system http://hl7.org/fhir/R4/valueset-audit-event-sub-type.html
 
 ValueSet: EhmiDeliveryStatusOutcomeValueset
-Id: eds-deliverystatus-outcome-valueset
+Id: ehmi-delivery-status-outcome-valueset
 Title: "EHMI AuditEvent Outcome Valueset"
 Description: "ValueSet containing codes for EHMI AuditEvent SubTypes"
 * ^version  =  "1.0.0"
@@ -63,9 +63,9 @@ Description: "ValueSet containing codes for EHMI AuditEvent SubTypes"
 * exclude #12 from system http://hl7.org/fhir/audit-event-outcome
 
 CodeSystem: EhmiDeliveryStatusParticipationRoleType
-Id: eds-deliverystatus-participationroletype
+Id: ehmi-delivery-status-participationroletype
 Title: "EHMI AuditEvent ParticipationRoleType CS"
-Description: "eds-deliverystatus-participationroletype for the EHMI Messaging Infrastructure"
+Description: "ehmi-delivery-status-participationroletype for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -76,7 +76,7 @@ Description: "eds-deliverystatus-participationroletype for the EHMI Messaging In
 * #ehmiDevice "Device" "The Device that reports the AuditEvent"
 
 ValueSet: EhmiDeliveryStatusParticipationRoleTypeValueset
-Id: eds-deliverystatus-participationroletype-valueset
+Id: ehmi-delivery-status-participationroletype-valueset
 Title: "EHMI AuditEvent ParticipationRoleType Valueset"
 Description: "ValueSet containing codes for EHMI AuditEvent ParticipationRole"
 * ^version  =  "1.0.0"
@@ -88,9 +88,9 @@ Description: "ValueSet containing codes for EHMI AuditEvent ParticipationRole"
 * include #110153 from system http://dicom.nema.org/resources/ontology/DCM
 
 CodeSystem: EhmiDeliveryStatusAgentWhoIdentifierTypes
-Id: eds-deliverystatus-agent-who-identifier-types
+Id: ehmi-delivery-status-agent-who-identifier-types
 Title: "EHMI AuditEvent agent.who.identifier Types CS"
-Description: "eds-deliverystatus-agent.who.identifier for the EHMI Messaging Infrastructure"
+Description: "ehmi-delivery-status-agent.who.identifier for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -100,7 +100,7 @@ Description: "eds-deliverystatus-agent.who.identifier for the EHMI Messaging Inf
 * #ehmiDEVICEID "DeviceId" "The recorded deviceid of a device used in EHMI"
 
 ValueSet: EhmiDeliveryStatusAgentWhoIdentifierTypesValueset
-Id: eds-deliverystatus-agent-who-identifier-types-valueset
+Id: ehmi-delivery-status-agent-who-identifier-types-valueset
 Title: "EHMI AuditEvent AgentWhoIdentifier Types Valueset"
 Description: "ValueSet containing codes for EHMI AuditEvent AgentWhoIdentifiers"
 * ^version  =  "1.0.0"
@@ -114,9 +114,9 @@ Description: "ValueSet containing codes for EHMI AuditEvent AgentWhoIdentifiers"
 //* include codes from system http://hl7.org/fhir/R5/valueset-resource-types.html
 /*
 CodeSystem: AuditEventAgentNetwork
-Id: eds-deliverystatus-network
+Id: ehmi-delivery-status-network
 Title: "EHMI AuditEvent audit-source-type CS"
-Description: "eds-deliverystatus-audit-source-type for the EHMI Messaging Infrastructure"
+Description: "ehmi-delivery-status-audit-source-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -126,21 +126,21 @@ Description: "eds-deliverystatus-audit-source-type for the EHMI Messaging Infras
 */
 
 ValueSet: AuditEventAgentNetworkValueset
-Id: eds-deliverystatus-network-valueset
+Id: ehmi-delivery-status-network-valueset
 Title: "EHMI AuditEvent Network Valueset"
-Description: "ValueSet containing codes for EHMI AuditEvent eds-deliverystatus-network"
+Description: "ValueSet containing codes for EHMI AuditEvent ehmi-delivery-status-network"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = false
-//* include codes from system eds-deliverystatus-network
+//* include codes from system ehmi-delivery-status-network
 * include #1 from system http://hl7.org/fhir/network-type
 //* include #2 from system http://hl7.org/fhir/network-type
 
 CodeSystem: EhmiDeliveryStatusSourceType
-Id: eds-deliverystatus-source-type
+Id: ehmi-delivery-status-source-type
 Title: "EHMI AuditEvent Source Type CS"
-Description: "eds-deliverystatus-audit-source-type for the EHMI Messaging Infrastructure"
+Description: "ehmi-delivery-status-audit-source-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -160,7 +160,7 @@ Description: "eds-deliverystatus-audit-source-type for the EHMI Messaging Infras
 */
 
 ValueSet: EhmiDeliveryStatusSourceTypeValueset
-Id: eds-deliverystatus-source-type-valueset
+Id: ehmi-delivery-status-source-type-valueset
 Title: "EHMI AuditEvent Source Type Valueset"
 Description: "ValueSet containing codes for EHMI AuditEvent AgentWhoIdentifiers"
 * ^version  =  "1.0.0"
@@ -170,7 +170,7 @@ Description: "ValueSet containing codes for EHMI AuditEvent AgentWhoIdentifiers"
 * include codes from system EhmiDeliveryStatusSourceType
 
 CodeSystem: EhmiDeliveryStatusEntityType
-Id: eds-deliverystatus-entity-type
+Id: ehmi-delivery-status-entity-type
 Title: "EHMI AuditEvent Entity Type CS"
 Description: "EHMI AuditEvent Entity Type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
@@ -185,7 +185,7 @@ Description: "EHMI AuditEvent Entity Type for the EHMI Messaging Infrastructure"
 * #ehmiOrigEnvelope "Original Envelope" "Original Envelope"
 
 ValueSet: EhmiDeliveryStatusEntityTypeValueset
-Id: eds-deliverystatus-entity-type-valueset
+Id: ehmi-delivery-status-entity-type-valueset
 Title: "EHMI AuditEvent Entity Type Valueset"
 Description: "ValueSet containing codes for EHMI AuditEvent Entity Type"
 * ^version  =  "1.0.0"
@@ -196,7 +196,7 @@ Description: "ValueSet containing codes for EHMI AuditEvent Entity Type"
 * include codes from system http://terminology.hl7.org/CodeSystem/audit-entity-type
 
 CodeSystem: EhmiDeliveryStatusEntityDetailType
-Id: eds-deliverystatus-entity-detail-type
+Id: ehmi-delivery-status-entity-detail-type
 Title: "EHMI AuditEvent Entity Type CS"
 Description: "EHMI AuditEvent Entity Type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
@@ -210,7 +210,7 @@ Description: "EHMI AuditEvent Entity Type for the EHMI Messaging Infrastructure"
 * #ehmiEnvelopeVersion "Envelope Version" "Envelope Version"
 
 ValueSet: EhmiDeliveryStatusEntityDetailTypeValueset
-Id: eds-deliverystatus-entity-detail-type-valueset
+Id: ehmi-delivery-status-entity-detail-type-valueset
 Title: "EHMI AuditEvent Entity Detail Type Valueset"
 Description: "ValueSet containing codes for EHMI AuditEvent Entity Detail Type"
 * ^version  =  "1.0.0"
@@ -220,7 +220,7 @@ Description: "ValueSet containing codes for EHMI AuditEvent Entity Detail Type"
 * include codes from system EhmiDeliveryStatusEntityDetailType
 
 CodeSystem: EhmiDeliveryStatusEntityMessageType
-Id: eds-deliverystatus-entity-message-type
+Id: ehmi-delivery-status-entity-message-type
 Title: "EHMI AuditEvent Entity MessageType CS"
 Description: "Codesystem containing codes for EHMI AuditEvent Entity MessageType"
 * ^version  =  "1.0.0"
@@ -234,7 +234,7 @@ Description: "Codesystem containing codes for EHMI AuditEvent Entity MessageType
 * #SBDH_Ack "EnvelopeAckType: SBDH_Ack" "EnvelopeAckType: SBDH_Ack"
 
 ValueSet: EhmiDeliveryStatusEntityMessageTypeValueset
-Id: eds-deliverystatus-entity-message-type-valueset
+Id: ehmi-delivery-status-entity-message-type-valueset
 Title: "EHMI AuditEvent Entity MessageType Valueset"
 Description: "ValueSet containing codes for EHMI AuditEvent Entity MessageType"
 * ^version  =  "1.0.0"
