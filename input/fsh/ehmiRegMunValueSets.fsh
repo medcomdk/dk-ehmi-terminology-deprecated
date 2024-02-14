@@ -1,7 +1,7 @@
 CodeSystem: EHMISORRegionType
-Id: ehmi-sor-region-type
+Id: dk-medcom-ehmi-sor-region-type
 Title: "EHMI SOR Region Types CS"
-Description: "ehmi-sor-region-type for the EHMI Messaging Infrastructure"
+Description: "dk-medcom-ehmi-sor-region-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -15,19 +15,19 @@ Description: "ehmi-sor-region-type for the EHMI Messaging Infrastructure"
 * #1083 "SOR Southern Region (DK:Region Syddanmark)"
 
 ValueSet: EHMISORRegionTypeVS
-Id: ehmi-sor-region-type-valueset
+Id: dk-medcom-ehmi-sor-region-type-valueset
 Title: "EHMI SOR Region Types Valueset"
-Description: "ValueSet containing codes for EHMI ehmi-sor-region-type"
+Description: "ValueSet containing codes for EHMI dk-medcom-ehmi-sor-region-type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = true
-* include codes from system ehmi-sor-region-type
+* include codes from system dk-medcom-ehmi-sor-region-type
 
 CodeSystem: EHMISORMunicipalityType
-Id: ehmi-sor-municipality-type
+Id: dk-medcom-ehmi-sor-municipality-type
 Title: "EHMI SOR Municipality Types CS"
-Description: "ehmi-sor-Municipality-type for the EHMI Messaging Infrastructure"
+Description: "dk-medcom-ehmi-sor-Municipality-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -134,12 +134,12 @@ Description: "ehmi-sor-Municipality-type for the EHMI Messaging Infrastructure"
 * #0860 "Hjørring"
 
 ValueSet: EHMISORMunicipalityTypeVS
-Id: ehmi-sor-municipality-type-valueset
+Id: dk-medcom-ehmi-sor-municipality-type-valueset
 Title: "EHMI SOR Municipality Types Valueset"
-Description: "ValueSet containing codes for EHMI ehmi-sor-Municipality-type for the EHMI Messaging Infrastructure"
+Description: "ValueSet containing codes for EHMI dk-medcom-ehmi-sor-Municipality-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = true
-* include codes from system ehmi-sor-municipality-type
+* include codes from system dk-medcom-ehmi-sor-municipality-type
 
