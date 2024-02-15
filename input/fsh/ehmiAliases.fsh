@@ -56,10 +56,12 @@ Alias: $EHMISORClinicalAdministrativeHierarchyVS = http://medcomehmi.dk/ig/dk-me
 Alias: $EHMISORMunicipalityCode = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-sor-municipality-type
 Alias: $EHMISORMunicipalityCodeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-sor-municipality-type-valueset
 
-Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
+Alias: $MedComMessagingMessageEvents = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-eventCodes
 
 Alias: $EHMIUseContextCodeSystem = http://terminology.hl7.org/CodeSystem/usage-context-type
 Alias: $EHMIUseContextCodeSystemVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-messagedefinition-use-context-code-valueset
+
+
 /*
 Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
 Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode 
@@ -70,7 +72,7 @@ Alias: $CodeCode = http://hl7.org/fhir/issue-type
 Alias: $AcknowledgementCode = http://hl7.org/fhir/ValueSet/Acknowledgement-code
 Alias: $BundleType = http://hl7.org/fhir/bundle-type
 Alias: $Use = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-destinationUse
-Alias: $MessageEvents = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-eventCodes
+Alias: $MedComMessageEvents = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-eventCodes
 Alias: $SORCode = urn:oid:1.2.208.176.1.1
 Alias: $EANCode = urn:oid:1.3.88
 Alias: $activityCodes = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-activityCodes

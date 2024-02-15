@@ -242,4 +242,4 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity Me
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * include codes from system EhmiDeliveryStatusEntityMessageType
-* include codes from system https://medcomfhir.dk/ig/terminology/CodeSystem-medcom-messaging-eventCodes.html
+* include codes from system $MedComMessagingMessageEvents
